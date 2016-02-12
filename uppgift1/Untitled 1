@@ -1,0 +1,25 @@
+a) konstruktor
+public House(int yearBuilt,int size){
+
+b) instansvariabler
+private int yearBuilt;
+private int size;
+
+c) instansmetoder
+public int getYearBuilt(){
+//diverse kod }
+	
+public int getSize(){ 
+} }
+
+d) vad innebär det att minSize är deklarerad final?
+Att den är slutgiltlig och kan inte överskridas.
+
+e) vad innebär det att vissa koddelar är deklarerade private och andra public? 
+Public visas för alla klasser i programmet medan private finns enabrt i sin klass.
+
+f) Rita ett UML diagram över klassen (visa denna för handledaren).
+
+
+g) lägg textfilen i projektet som du skapar i uppgift 1.2.
+

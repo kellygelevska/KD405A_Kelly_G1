@@ -1,0 +1,68 @@
+
+public class Bike {
+	private String color;
+	private int price;
+	private int size;
+	
+	public Bike (String color, int size) {
+		this.color = "Svart";
+		for (String s : Constants.COLORS){
+			if (s.toLowerCase ().equals(color.toLowerCase())){
+				this.color =color;
+			}
+		}
+	
+	if (size < Constants-MIN_SIZE) {
+		this.size = Constants.MAX_SIZE;
+	} else if (size > Constants.MAX_SIZE) {
+		this.size = Constants.MAX_SIZE; 
+		} else { this.size = size; }
+	}
+	
+
+public Bike (String color, int size, int price) {
+	if (size < Constants.MIN_SIZE) {
+		this.size = Constants.MIN_SIZE;
+	} else if (size > Constants.MAX_SIZE) {
+		this.size = Constants.MAX_SIZE;
+	} else {
+		this.size = size;
+	}
+
+if (price < Constants.MIN_PRICE) {
+	this.price = Constants.MIN_PRICE; }
+	else if (price > Constants.MAX_PRICE) {
+	this.price = Constants.MAX_PRICE; }
+	else { this.price = price;
+
+}
+
+this.color = "Blue";
+for (String s: Constants.COLORS){
+	if (s.toLowerCase().equals(color.toLowerCase())){
+		this.color = color;
+	}
+	}
+	}
+public String getColor() {
+	return color;
+}
+
+public int getPrice() {
+	return price;
+}
+
+public int getSize(){
+	return size;
+}
+
+public void setPrice (int price) {
+	if (price < Constants.MIN_PRICE) {
+		this.price = Constants.MIN_PRICE; }
+	else if (price > Constants.MAX_PRICE) {
+		this.price = Constants.MAX_PRICE;
+	} else {
+		this.price = price;
+	}
+	}
+}
