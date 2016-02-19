@@ -1,16 +1,11 @@
 
 public class Dog {
+	private String name;
 	
-	private String name; 
-	
-	public Dog(String name) {
+	public Dog (String name){
 		this.name = name;
 	}
-
-	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
-		
+	public String getName(){
+		return this.name;
 	}
 }
-
