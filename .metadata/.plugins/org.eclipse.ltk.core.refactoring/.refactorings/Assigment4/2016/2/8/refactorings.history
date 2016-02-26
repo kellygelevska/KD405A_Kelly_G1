@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HumanDogGUI.java&apos; to &apos;A6_Kelly_G&apos;&#x0A;- Original project: &apos;Assigment4&apos;&#x0A;- Destination element: &apos;A6_Kelly_G&apos;&#x0A;- Original element: &apos;HumanDogGUI.java&apos;" description="Copy compilation unit" destination="=A6_Kelly_G" element1="/src&lt;{HumanDogGUI.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1456478495043" units="1" version="1.0"/>
+</session>
