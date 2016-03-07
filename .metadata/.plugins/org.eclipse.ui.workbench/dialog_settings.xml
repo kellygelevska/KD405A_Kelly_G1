@@ -29,10 +29,15 @@
 			<item value="org.eclipse.ui.Basic"/>
 		</list>
 	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+	<section name="FileSystemImportWizard">
+	</section>
 	<section name="ZipFileExportWizard">
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/KellyGelevska/Desktop/A6_Kelly_G.zip"/>
 			<item value="/Users/KellyGelevska/Desktop/Assigment 3_Kelly_G.zip"/>
 			<item value="/Users/KellyGelevska/Desktop/KD405A_Gelevska_K _uppgift2.zip"/>
 		</list>
